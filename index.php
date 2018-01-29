@@ -16,6 +16,7 @@
                 <p class="podpis">~Zespół CC</p>
             </div>
             <form action="" method="POST" class="login">
+                <img src="img/people2.png"/>
                 <input type="text" placeholder="Login" class="login-text"/>
                 <input type="password" placeholder="Haslo" class="login-text"/>
                 <input type="submit" value="Zaloguj" class="login-btn"/>

@@ -101,8 +101,12 @@ div.page-content {
         grid-row: 1 / 2;
         justify-self: start;
         align-self: start;
-        margin: 180px 0px 0px 75px;
+        margin: 70px 0px 0px 75px;
         width: 350px;
+        img {
+            width: 190px;
+            margin: 20px 80px;
+        }
         input[type=text], input[type=password] {
             width: calc(100% - 10px);
             padding-left: 10px;
