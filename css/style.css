@@ -4,7 +4,7 @@ body {
   padding: 0px;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end];
+  grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end footer-start] 100px [footer-end];
   background-color: #f4f4f4;
   font-family: "Yantramanav", sans-serif; }
 
@@ -114,11 +114,27 @@ div.page-content {
       border: none;
       background: linear-gradient(to top, #1171ff, #6aa6ff);
       color: white;
-      font-size: 18px;
+      font-size: 16px;
       border-radius: 6px; }
       div.page-content form.login input[type=submit]:hover {
         background: none;
         background-color: #0468ff;
         cursor: pointer; }
+
+footer {
+  grid-column: 1 / 2;
+  grid-row: footer-start / footer-end;
+  width: 1000px;
+  height: 100%;
+  background-color: white;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  justify-self: center; }
+  footer p {
+    width: 80%;
+    color: #8b8b8b;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 10% 0px 10%; }
 
 /*# sourceMappingURL=style.css.map */

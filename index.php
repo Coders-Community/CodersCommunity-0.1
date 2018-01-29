@@ -22,5 +22,6 @@
                 <input type="submit" value="Zaloguj" class="login-btn"/>
             </form>
         </div>
+        <footer><p>Korzystając z serwisu akceptujesz plitykę cookies, nasz regulamin i warunki użytkowania. <br/>Copyrights &copy; 2018 | Gupa CodersCommunity&reg;</p></footer>
     </body>
 </html>
