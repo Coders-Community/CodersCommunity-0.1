@@ -19,9 +19,13 @@
                 <img src="img/people2.png"/>
                 <input type="text" placeholder="Login" class="login-text"/>
                 <input type="password" placeholder="Haslo" class="login-text"/>
+                <label class="container">Zapamiętaj mnie
+                    <input type="checkbox" name="remember" value="yes">
+                    <span class="checkmark"></span>
+                </label>
                 <input type="submit" value="Zaloguj" class="login-btn"/>
             </form>
         </div>
-        <footer><p>Korzystając z serwisu akceptujesz plitykę cookies, nasz regulamin i warunki użytkowania. <br/>Copyrights &copy; 2018 | Gupa CodersCommunity&reg;</p></footer>
+        <footer><p>Korzystając z serwisu akceptujesz politykę cookies, nasz regulamin i warunki użytkowania. <br/>Copyrights &copy; 2018 | Grupa CodersCommunity&reg;</p></footer>
     </body>
 </html>

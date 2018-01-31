@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav');
+@import url("checkBox.css");
 $basicFont: 'Yantramanav', sans-serif;
 body {
     margin: 0px;
@@ -123,7 +124,7 @@ div.page-content {
         input[type=submit] {
             width: 150px;
             height: 35px;
-            margin: 20px 100px;
+            margin: 15px 100px;
             border: none;
             background: linear-gradient(to top, #1171ff, #6aa6ff);
             color: white;
