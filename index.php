@@ -1,5 +1,6 @@
 <html lang="pl">
     <head>
+        <meta charset="utf-8">
         <title>CodersCommunity</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
