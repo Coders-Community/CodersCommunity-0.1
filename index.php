@@ -2,7 +2,6 @@
     <head>
         <meta charset="utf-8">
         <title>CodersCommunity</title>
-        <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
@@ -29,5 +28,6 @@
             </form>
         </div>
         <footer><p>Korzystając z serwisu akceptujesz politykę cookies, nasz regulamin i warunki użytkowania. <br/>Copyrights &copy; 2018 | Grupa CodersCommunity&reg;</p></footer>
+        <div class="pic"></div>
     </body>
 </html>

@@ -6,7 +6,7 @@ body {
     padding: 0px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end footer-start] 100px [footer-end];
+    grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end footer-start] 100px [footer-end pic-start] 80px [pic-end];
     background-color: #f4f4f4;
     font-family: $basicFont;
 }
@@ -158,4 +158,16 @@ footer {
         text-align: center;
         margin: 25px 10% 0px 10%;
     }
+}
+
+div.pic {
+    grid-column: 1 / 2;
+    grid-row: pic-start / pic-end;
+    width: 1000px;
+    height: 100%;
+    justify-self: center;
+    background: url("../img/img.png");
+    background-position: center center;
+    background-size: 190px auto;
+    background-repeat: no-repeat;
 }
