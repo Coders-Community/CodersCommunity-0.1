@@ -1,14 +1,14 @@
 <html lang="pl">
     <head>
+        <meta charset="utf-8">
         <title>CodersCommunity</title>
-        <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
         <nav>
             <img src="img/logo.png" class="logo"/>
             <h1>CodersCommunity</h1>
-            <button>Zarejestruj się</button>
+        <button onclick="window.location.href='register.php'">Zarejestruj się</button>
         </nav>
         <div class="page-content">
             <div class="description">

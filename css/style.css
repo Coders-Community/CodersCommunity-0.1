@@ -5,7 +5,7 @@ body {
   padding: 0px;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end footer-start] 100px [footer-end];
+  grid-template-rows: [nav-start] 60px [nav-end content-start] auto [content-end footer-start] 100px [footer-end pic-start] 80px [pic-end];
   background-color: #f4f4f4;
   font-family: "Yantramanav", sans-serif; }
 
@@ -19,7 +19,9 @@ nav {
   nav .logo {
     grid-column: logo-start / logo-end;
     grid-row: 1 / 2;
-    align-self: center; }
+    align-self: center;
+    width: 40px;
+    height: 40px; }
   nav h1 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
@@ -87,17 +89,26 @@ div.page-content {
       color: #8b8b8b;
       font-size: 14px;
       text-align: center; }
-  div.page-content form.login {
+  div.page-content form.login{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     justify-self: start;
     align-self: start;
     margin: 70px 0px 0px 75px;
     width: 350px; }
+div.page-content form.register{
+    justify-self: start;
+    align-self: start;
+    margin: 70px 0px 20px 550px;
+    width: 350px;
+}
+div.page-content legend{
+    font-size: 20px;
+}
     div.page-content form.login img {
       width: 190px;
       margin: 20px 80px; }
-    div.page-content form.login input[type=text], div.page-content form.login input[type=password] {
+    div.page-content form.login input[type=text], div.page-content form.login input[type=password],form.register input[type=text],[type=email],[type=date] {
       width: calc(100% - 10px);
       padding-left: 10px;
       height: 40px;
@@ -117,7 +128,22 @@ div.page-content {
       color: white;
       font-size: 16px;
       border-radius: 6px; }
+ div.page-content form.register input[type=submit]{
+     width: 150px;
+      height: 35px;
+      margin: 15px 100px;
+     border: none;
+      background: linear-gradient(to top, #1171ff, #6aa6ff);
+      color: white;
+      font-size: 16px;
+      border-radius: 6px; }
+}
       div.page-content form.login input[type=submit]:hover {
+        background: none;
+        background-color: #0468ff;
+        cursor: pointer; }
+
+ div.page-content form.register input[type=submit]:hover {
         background: none;
         background-color: #0468ff;
         cursor: pointer; }
@@ -137,5 +163,16 @@ footer {
     font-size: 18px;
     text-align: center;
     margin: 25px 10% 0px 10%; }
+
+div.pic {
+  grid-column: 1 / 2;
+  grid-row: pic-start / pic-end;
+  width: 1000px;
+  height: 100%;
+  justify-self: center;
+  background: url("../img/img.png");
+  background-position: center center;
+  background-size: 190px auto;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
